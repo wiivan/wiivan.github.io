@@ -8,26 +8,50 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- <form action="https://formspree.io/viniciusferracoarruda@gmail.com" method="POST" class="simple-search">
-                        <div>
-                            <input type="text" name="user_name" placeholder="Name" id="goog-wm-qt-mine" autofocus/>
-                        </div>
-                        <div>
-                            <input type="email" name="user_mail" placeholder="Email Address" id="goog-wm-qt-mine" autofocus required/>
-                        </div>
-                        <div>
-                            <textarea name="user_message" id="goog-wm-qt-mine" placeholder="Message" autofocus></textarea>
-                        </div>
-                        <div>
-                            <input type="submit" value="Submit" id="goog-wm-sb" />
-                        </div>
-                    </form> -->
                     <!-- <form method="POST" action="https://formspree.io/viniciusferracoarruda@gmail.com">
                         <input type="email" name="email" placeholder="Your email">
                         <textarea name="message" placeholder="Test Message"></textarea>
                         <button type="submit">Send Test</button>
-                      </form> -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    </form> -->
+                    <form method="POST" action="https://formspree.io/viniciusferracoarruda@gmail.com" name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- <input type="email" name="email" placeholder="Your email"> -->
+                                <!-- <textarea name="message" placeholder="Test Message"></textarea> -->
+                                <!-- <button type="submit">Send Test</button> -->
+                                <div class="control-group form-group">
+                                    <!-- <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name."> -->
+                                    <input type="text" name="name" class="form-control" placeholder="Seu Nome">
+                                    <p class="help-block text-danger"></p> <!-- I do not know for what is this line ! -->
+                                </div>
+                                <div class="control-group form-group">
+                                    <!-- <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address."> -->
+                                    <input type="email" class="form-control" name="email" placeholder="Email">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group form-group">
+                                    <!-- <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number."> -->
+                                    <input type="telephone" class="form-control" name="telephone" placeholder="(27) 91234-5678">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="control-group form-group">
+                                    <!-- <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea> -->
+                                    <textarea class="form-control" name="message" placeholder="Hora e local de saída para o trabalho/escola/faculdade durante a semana"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- old form that does not work with static site  -->
+                    <!-- <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="control-group form-group">
@@ -55,7 +79,7 @@
                                 <button type="submit" class="btn btn-xl">Send Message</button>
                             </div>
                         </div>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </div>
