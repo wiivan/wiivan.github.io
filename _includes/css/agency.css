@@ -134,18 +134,6 @@ fieldset[disabled] .btn-primary.active {
     background-color: #{{ site.data.template.color.primary }};
 }
 
-.btn-zap {
-    padding: 5px 5px;
-    border-color: #{{ site.data.template.color.primary }};
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-size: 10px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
-}
-
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -182,6 +170,60 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .btn-xl .badge {
+    color: #{{ site.data.template.color.primary }};
+    background-color: #fff;
+}
+
+
+.btn-zap {
+    padding: 5px 5px;
+    border-color: #{{ site.data.template.color.primary }};
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #{{ site.data.template.color.primary }};
+}
+
+
+.btn-zap:hover,
+.btn-zap:focus,
+.btn-zap:active,
+.btn-zap.active,
+.open .dropdown-toggle.btn-zap {
+    border-color: #{{ site.data.template.color.primary }};
+    color: #fff;
+    background-color: #{{ site.data.template.color.secondary }};
+}
+
+.btn-zap:active,
+.btn-zap.active,
+.open .dropdown-toggle.btn-zap {
+    background-image: none;
+}
+
+.btn-zap.disabled,
+.btn-zap[disabled],
+fieldset[disabled] .btn-zap,
+.btn-zap.disabled:hover,
+.btn-zap[disabled]:hover,
+fieldset[disabled] .btn-zap:hover,
+.btn-zap.disabled:focus,
+.btn-zap[disabled]:focus,
+fieldset[disabled] .btn-zap:focus,
+.btn-zap.disabled:active,
+.btn-zap[disabled]:active,
+fieldset[disabled] .btn-zap:active,
+.btn-zap.disabled.active,
+.btn-zap[disabled].active,
+fieldset[disabled] .btn-zap.active {
+    border-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.primary }};
+}
+
+.btn-zap .badge {
     color: #{{ site.data.template.color.primary }};
     background-color: #fff;
 }
