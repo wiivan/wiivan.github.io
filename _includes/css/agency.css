@@ -177,14 +177,15 @@ fieldset[disabled] .btn-xl.active {
 
 .btn-zap {
     padding: 5px 5px;
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #25D366;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 10px;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #25D366;
+    /* background-color: #{{ site.data.template.color.primary }}; */
 }
 
 
@@ -193,9 +194,9 @@ fieldset[disabled] .btn-xl.active {
 .btn-zap:active,
 .btn-zap.active,
 .open .dropdown-toggle.btn-zap {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #128C7E;
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #128C7E;
 }
 
 .btn-zap:active,
@@ -219,12 +220,12 @@ fieldset[disabled] .btn-zap:active,
 .btn-zap.disabled.active,
 .btn-zap[disabled].active,
 fieldset[disabled] .btn-zap.active {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-color: #25D366;
+    background-color: #25D366;
 }
 
 .btn-zap .badge {
-    color: #{{ site.data.template.color.primary }};
+    color: #25D366;
     background-color: #fff;
 }
 
