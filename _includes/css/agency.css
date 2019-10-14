@@ -18,6 +18,10 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.text-zap {
+    color: #25D366;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -125,6 +129,18 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #{{ site.data.template.color.primary }};
+}
+
+.btn-zap {
+    padding: 5px 5px;
+    border-color: #{{ site.data.template.color.primary }};
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 10px;
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
@@ -724,6 +740,13 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    /* background-color: #222; */
+    /* background-color: #000000; */
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 10px;
+    /* border-color: #{{ site.data.template.color.primary }};
+    color: #fff;
+    background-color: #{{ site.data.template.color.secondary }}; */
 }
 
 footer span.copyright {
