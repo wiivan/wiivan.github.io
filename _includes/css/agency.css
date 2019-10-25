@@ -235,8 +235,11 @@ fieldset[disabled] .btn-zap.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    font-family: "Fredoka One", "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    letter-spacing: 0.2em;
+    /* font-size: 1.2em; */
+    /* color: #{{ site.data.template.color.primary }}; */
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -304,7 +307,7 @@ fieldset[disabled] .btn-zap.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 3em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
